@@ -1,0 +1,12 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../data/falldata  # dataset root dir
+train: images/train  # train images (relative to 'path') 4808 images
+val : images/val # valid images (relative to 'path') 1175 images
+test: images/test  # test images (relative to 'path') 973 images
+
+
+is coco : False
+# Classes
+nc: 2 # number of classes
+names: ['person', 'fall']  # class names
+

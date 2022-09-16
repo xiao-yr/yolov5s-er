@@ -1,0 +1,25 @@
+2022-08-10 02:32:20,732 INFO    MainThread:6792 [wandb_setup.py:_flush():76] Configure stats pid to 6792
+2022-08-10 02:32:20,732 INFO    MainThread:6792 [wandb_setup.py:_flush():76] Loading settings from C:\Users\15111\.config\wandb\settings
+2022-08-10 02:32:20,732 INFO    MainThread:6792 [wandb_setup.py:_flush():76] Loading settings from G:\project\paper_project\objection detective\yoloair-main\utils\wandb\settings
+2022-08-10 02:32:20,732 INFO    MainThread:6792 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-08-10 02:32:20,733 INFO    MainThread:6792 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-08-10 02:32:20,733 INFO    MainThread:6792 [wandb_init.py:_log_setup():461] Logging user logs to G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\logs\debug.log
+2022-08-10 02:32:20,733 INFO    MainThread:6792 [wandb_init.py:_log_setup():462] Logging internal logs to G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\logs\debug-internal.log
+2022-08-10 02:32:20,740 INFO    MainThread:6792 [wandb_init.py:init():495] calling init triggers
+2022-08-10 02:32:20,740 INFO    MainThread:6792 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-08-10 02:32:20,747 INFO    MainThread:6792 [wandb_init.py:init():548] starting backend
+2022-08-10 02:32:20,747 INFO    MainThread:6792 [wandb_init.py:init():552] setting up manager
+2022-08-10 02:32:20,773 INFO    MainThread:6792 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2022-08-10 02:32:20,798 INFO    MainThread:6792 [wandb_init.py:init():558] backend started and connected
+2022-08-10 02:32:20,833 INFO    MainThread:6792 [wandb_init.py:init():636] updated telemetry
+2022-08-10 02:32:20,883 INFO    MainThread:6792 [wandb_init.py:init():667] communicating run to backend with 30 second timeout
+2022-08-10 02:32:22,149 INFO    MainThread:6792 [wandb_run.py:_on_init():1982] communicating current version
+2022-08-10 02:32:22,988 INFO    MainThread:6792 [wandb_run.py:_on_init():1986] got version response 
+2022-08-10 02:32:22,988 INFO    MainThread:6792 [wandb_init.py:init():700] starting run threads in backend
+2022-08-10 02:32:26,015 INFO    MainThread:6792 [wandb_run.py:_console_start():1962] atexit reg
+2022-08-10 02:32:26,024 INFO    MainThread:6792 [wandb_run.py:_redirect():1820] redirect: SettingsConsole.WRAP_RAW
+2022-08-10 02:32:26,024 INFO    MainThread:6792 [wandb_run.py:_redirect():1885] Wrapping output streams.
+2022-08-10 02:32:26,024 INFO    MainThread:6792 [wandb_run.py:_redirect():1907] Redirects installed.
+2022-08-10 02:32:26,025 INFO    MainThread:6792 [wandb_init.py:init():732] run started, returning control to user process
+2022-08-10 02:33:28,274 WARNING MsgRouterThr:6792 [router.py:message_loop():76] message_loop has been closed

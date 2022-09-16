@@ -1,0 +1,184 @@
+2022-08-10 02:32:20,793 INFO    StreamThr :12524 [internal.py:wandb_internal():90] W&B internal server running at pid: 12524, started at: 2022-08-10 02:32:20.786600
+2022-08-10 02:32:20,796 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: status
+2022-08-10 02:32:20,801 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: status
+2022-08-10 02:32:20,834 DEBUG   SenderThread:12524 [sender.py:send():302] send: header
+2022-08-10 02:32:20,835 INFO    WriterThread:12524 [datastore.py:open_for_write():75] open: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\run-1z9akhrm.wandb
+2022-08-10 02:32:20,884 DEBUG   SenderThread:12524 [sender.py:send():302] send: run
+2022-08-10 02:32:22,149 INFO    SenderThread:12524 [dir_watcher.py:__init__():216] watching files in: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files
+2022-08-10 02:32:22,149 INFO    SenderThread:12524 [sender.py:_start_run_threads():913] run started: 1z9akhrm with start time 1660069940.798598
+2022-08-10 02:32:22,149 DEBUG   SenderThread:12524 [sender.py:send():302] send: summary
+2022-08-10 02:32:22,150 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: check_version
+2022-08-10 02:32:22,150 INFO    SenderThread:12524 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-10 02:32:22,151 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: check_version
+2022-08-10 02:32:23,044 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: run_start
+2022-08-10 02:32:23,085 DEBUG   HandlerThread:12524 [meta.py:__init__():35] meta init
+2022-08-10 02:32:23,086 DEBUG   HandlerThread:12524 [meta.py:__init__():50] meta init done
+2022-08-10 02:32:23,086 DEBUG   HandlerThread:12524 [meta.py:probe():216] probe
+2022-08-10 02:32:23,154 INFO    Thread-16 :12524 [dir_watcher.py:_on_file_created():275] file/dir created: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\wandb-summary.json
+2022-08-10 02:32:23,173 DEBUG   HandlerThread:12524 [git.py:repo():40] git repository is invalid
+2022-08-10 02:32:23,173 DEBUG   HandlerThread:12524 [meta.py:_save_pip():54] save pip
+2022-08-10 02:32:23,183 DEBUG   HandlerThread:12524 [meta.py:_save_pip():68] save pip done
+2022-08-10 02:32:23,183 DEBUG   HandlerThread:12524 [meta.py:_save_conda():75] save conda
+2022-08-10 02:32:24,154 INFO    Thread-16 :12524 [dir_watcher.py:_on_file_created():275] file/dir created: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\requirements.txt
+2022-08-10 02:32:24,155 INFO    Thread-16 :12524 [dir_watcher.py:_on_file_created():275] file/dir created: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\conda-environment.yaml
+2022-08-10 02:32:25,977 DEBUG   HandlerThread:12524 [meta.py:_save_conda():85] save conda done
+2022-08-10 02:32:25,977 DEBUG   HandlerThread:12524 [meta.py:probe():254] probe done
+2022-08-10 02:32:25,996 DEBUG   SenderThread:12524 [sender.py:send():302] send: files
+2022-08-10 02:32:25,996 INFO    SenderThread:12524 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-08-10 02:32:26,015 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-10 02:32:26,016 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: stop_status
+2022-08-10 02:32:26,158 INFO    Thread-16 :12524 [dir_watcher.py:_on_file_created():275] file/dir created: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\wandb-metadata.json
+2022-08-10 02:32:26,516 DEBUG   SenderThread:12524 [sender.py:send():302] send: telemetry
+2022-08-10 02:32:27,159 INFO    Thread-16 :12524 [dir_watcher.py:_on_file_created():275] file/dir created: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\output.log
+2022-08-10 02:32:27,524 INFO    Thread-20 :12524 [upload_job.py:push():138] Uploaded file C:\Users\15111\AppData\Local\Temp\tmpsf4oxlhdwandb\5ukfn158-wandb-metadata.json
+2022-08-10 02:32:29,163 INFO    Thread-16 :12524 [dir_watcher.py:_on_file_modified():292] file/dir modified: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\output.log
+2022-08-10 02:32:41,519 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-10 02:32:41,520 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: stop_status
+2022-08-10 02:32:52,207 INFO    Thread-16 :12524 [dir_watcher.py:_on_file_modified():292] file/dir modified: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\config.yaml
+2022-08-10 02:32:52,392 DEBUG   SenderThread:12524 [sender.py:send():302] send: stats
+2022-08-10 02:32:57,505 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-10 02:32:57,506 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: stop_status
+2022-08-10 02:33:13,030 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-10 02:33:13,030 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: stop_status
+2022-08-10 02:33:22,188 DEBUG   SenderThread:12524 [sender.py:send():302] send: exit
+2022-08-10 02:33:22,189 INFO    SenderThread:12524 [sender.py:send_exit():438] handling exit code: 0
+2022-08-10 02:33:22,189 INFO    SenderThread:12524 [sender.py:send_exit():440] handling runtime: 59
+2022-08-10 02:33:22,191 INFO    SenderThread:12524 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-10 02:33:22,192 INFO    SenderThread:12524 [sender.py:send_exit():446] send defer
+2022-08-10 02:33:22,192 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: defer
+2022-08-10 02:33:22,193 INFO    HandlerThread:12524 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-10 02:33:22,193 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: defer
+2022-08-10 02:33:22,193 INFO    SenderThread:12524 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-08-10 02:33:22,193 INFO    SenderThread:12524 [sender.py:transition_state():459] send defer: 1
+2022-08-10 02:33:22,194 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: defer
+2022-08-10 02:33:22,194 INFO    HandlerThread:12524 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-10 02:33:22,270 INFO    Thread-16 :12524 [dir_watcher.py:_on_file_modified():292] file/dir modified: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\wandb-summary.json
+2022-08-10 02:33:22,300 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: defer
+2022-08-10 02:33:22,300 INFO    SenderThread:12524 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-08-10 02:33:22,300 INFO    SenderThread:12524 [sender.py:transition_state():459] send defer: 2
+2022-08-10 02:33:22,300 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:22,301 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:22,301 DEBUG   SenderThread:12524 [sender.py:send():302] send: stats
+2022-08-10 02:33:22,302 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: defer
+2022-08-10 02:33:22,302 INFO    HandlerThread:12524 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-10 02:33:22,302 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: defer
+2022-08-10 02:33:22,303 INFO    SenderThread:12524 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-08-10 02:33:22,303 INFO    SenderThread:12524 [sender.py:transition_state():459] send defer: 3
+2022-08-10 02:33:22,304 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: defer
+2022-08-10 02:33:22,304 INFO    HandlerThread:12524 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-10 02:33:22,304 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: defer
+2022-08-10 02:33:22,304 INFO    SenderThread:12524 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-08-10 02:33:22,304 INFO    SenderThread:12524 [sender.py:transition_state():459] send defer: 4
+2022-08-10 02:33:22,305 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: defer
+2022-08-10 02:33:22,305 INFO    HandlerThread:12524 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-10 02:33:22,305 DEBUG   SenderThread:12524 [sender.py:send():302] send: summary
+2022-08-10 02:33:22,306 INFO    SenderThread:12524 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-10 02:33:22,307 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: defer
+2022-08-10 02:33:22,307 INFO    SenderThread:12524 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-08-10 02:33:22,307 INFO    SenderThread:12524 [sender.py:transition_state():459] send defer: 5
+2022-08-10 02:33:22,307 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: defer
+2022-08-10 02:33:22,307 INFO    HandlerThread:12524 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-10 02:33:22,307 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: defer
+2022-08-10 02:33:22,307 INFO    SenderThread:12524 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-08-10 02:33:22,308 INFO    SenderThread:12524 [sender.py:transition_state():459] send defer: 6
+2022-08-10 02:33:22,308 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: defer
+2022-08-10 02:33:22,308 INFO    HandlerThread:12524 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-10 02:33:22,308 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: defer
+2022-08-10 02:33:22,308 INFO    SenderThread:12524 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-08-10 02:33:22,405 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:22,630 INFO    SenderThread:12524 [sender.py:transition_state():459] send defer: 7
+2022-08-10 02:33:22,630 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:22,631 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: defer
+2022-08-10 02:33:22,631 INFO    HandlerThread:12524 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-10 02:33:22,632 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: defer
+2022-08-10 02:33:22,633 INFO    SenderThread:12524 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-08-10 02:33:22,633 INFO    SenderThread:12524 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-08-10 02:33:22,735 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:23,275 INFO    SenderThread:12524 [dir_watcher.py:_on_file_modified():292] file/dir modified: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\wandb-summary.json
+2022-08-10 02:33:23,276 INFO    SenderThread:12524 [dir_watcher.py:_on_file_modified():292] file/dir modified: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\output.log
+2022-08-10 02:33:23,276 INFO    SenderThread:12524 [dir_watcher.py:finish():392] scan: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files
+2022-08-10 02:33:23,277 INFO    SenderThread:12524 [dir_watcher.py:finish():406] scan save: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\conda-environment.yaml conda-environment.yaml
+2022-08-10 02:33:23,278 INFO    SenderThread:12524 [dir_watcher.py:finish():406] scan save: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\config.yaml config.yaml
+2022-08-10 02:33:23,280 INFO    SenderThread:12524 [dir_watcher.py:finish():406] scan save: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\output.log output.log
+2022-08-10 02:33:23,288 INFO    SenderThread:12524 [dir_watcher.py:finish():406] scan save: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\requirements.txt requirements.txt
+2022-08-10 02:33:23,297 INFO    SenderThread:12524 [dir_watcher.py:finish():406] scan save: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\wandb-metadata.json wandb-metadata.json
+2022-08-10 02:33:23,298 INFO    SenderThread:12524 [dir_watcher.py:finish():406] scan save: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\wandb-summary.json wandb-summary.json
+2022-08-10 02:33:23,303 INFO    SenderThread:12524 [sender.py:transition_state():459] send defer: 8
+2022-08-10 02:33:23,303 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:23,304 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: defer
+2022-08-10 02:33:23,305 INFO    HandlerThread:12524 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-10 02:33:23,306 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: defer
+2022-08-10 02:33:23,306 INFO    SenderThread:12524 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-08-10 02:33:23,310 INFO    SenderThread:12524 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-10 02:33:23,412 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:23,412 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:23,515 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:23,516 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:23,617 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:23,618 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:23,720 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:23,721 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:23,824 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:23,825 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:23,930 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:23,930 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:24,040 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:24,040 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:24,142 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:24,143 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:24,245 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:24,246 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:24,347 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:24,348 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:24,460 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:24,461 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:24,563 INFO    Thread-22 :12524 [upload_job.py:push():138] Uploaded file G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\output.log
+2022-08-10 02:33:24,564 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:24,564 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:24,583 INFO    Thread-23 :12524 [upload_job.py:push():138] Uploaded file G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\requirements.txt
+2022-08-10 02:33:24,663 INFO    Thread-24 :12524 [upload_job.py:push():138] Uploaded file G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\wandb-summary.json
+2022-08-10 02:33:24,667 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:24,668 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:24,771 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:24,771 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:24,873 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:24,874 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:24,932 INFO    Thread-21 :12524 [upload_job.py:push():138] Uploaded file G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\files\config.yaml
+2022-08-10 02:33:24,977 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:24,978 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:25,081 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:25,081 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:25,134 INFO    Thread-15 :12524 [sender.py:transition_state():459] send defer: 9
+2022-08-10 02:33:25,134 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: defer
+2022-08-10 02:33:25,134 INFO    HandlerThread:12524 [handler.py:handle_request_defer():164] handle defer: 9
+2022-08-10 02:33:25,135 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: defer
+2022-08-10 02:33:25,135 INFO    SenderThread:12524 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-08-10 02:33:25,184 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:26,058 INFO    SenderThread:12524 [sender.py:transition_state():459] send defer: 10
+2022-08-10 02:33:26,059 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:26,059 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: defer
+2022-08-10 02:33:26,059 INFO    HandlerThread:12524 [handler.py:handle_request_defer():164] handle defer: 10
+2022-08-10 02:33:26,060 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: defer
+2022-08-10 02:33:26,060 INFO    SenderThread:12524 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-08-10 02:33:26,060 INFO    SenderThread:12524 [sender.py:transition_state():459] send defer: 11
+2022-08-10 02:33:26,061 DEBUG   SenderThread:12524 [sender.py:send():302] send: final
+2022-08-10 02:33:26,062 DEBUG   SenderThread:12524 [sender.py:send():302] send: footer
+2022-08-10 02:33:26,062 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: defer
+2022-08-10 02:33:26,062 INFO    HandlerThread:12524 [handler.py:handle_request_defer():164] handle defer: 11
+2022-08-10 02:33:26,062 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: defer
+2022-08-10 02:33:26,062 INFO    SenderThread:12524 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-08-10 02:33:26,163 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-10 02:33:26,163 DEBUG   SenderThread:12524 [sender.py:send_request():316] send_request: poll_exit
+2022-08-10 02:33:26,164 INFO    SenderThread:12524 [file_pusher.py:join():176] waiting for file pusher
+2022-08-10 02:33:27,262 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: sampled_history
+2022-08-10 02:33:27,264 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-10 02:33:27,264 INFO    MainThread:12524 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-08-10 02:33:27,265 INFO    MainThread:12524 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-08-10 02:33:27,265 INFO    MainThread:12524 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-08-10 02:33:27,269 DEBUG   HandlerThread:12524 [handler.py:handle_request():141] handle_request: shutdown
+2022-08-10 02:33:27,269 INFO    HandlerThread:12524 [handler.py:finish():810] shutting down handler
+2022-08-10 02:33:28,064 INFO    WriterThread:12524 [datastore.py:close():279] close: G:\project\paper_project\objection detective\yoloair-main\utils\wandb\run-20220810_023220-1z9akhrm\run-1z9akhrm.wandb
+2022-08-10 02:33:28,161 INFO    SenderThread:12524 [sender.py:finish():1312] shutting down sender
+2022-08-10 02:33:28,161 INFO    SenderThread:12524 [file_pusher.py:finish():171] shutting down file pusher
+2022-08-10 02:33:28,161 INFO    SenderThread:12524 [file_pusher.py:join():176] waiting for file pusher
+2022-08-10 02:33:28,274 INFO    MainThread:12524 [internal.py:handle_exit():80] Internal process exited
