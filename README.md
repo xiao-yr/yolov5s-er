@@ -17,7 +17,7 @@
 FPDS数据集地址： http://agamenon.tsc.uah.es/Investigacion/gram/papers/fall_detection/FPDS_dataset.zip.
 
 
-#### Technologies
+#### 技术
 - Yolov5 (Pytorch)
 - Repvgg
 - Picodet
